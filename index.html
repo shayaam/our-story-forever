@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12090f">
+  <meta name="description" content="A little corner of the universe, made for our story.">
+  <title>Our Story, Forever ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a class="wordmark" href="#home" aria-label="Our Story, Forever home"><span class="wordmark-heart">♡</span> Relive, Again</a>
+    <div class="nav-links">
+      <a href="#story">Our story</a>
+      <a href="#our-heart">Our heart</a>
+      <a href="#our-video">Our video</a>
+      <a href="#memories">Memories</a>
+      <a href="#letter">A Letter</a>
+    </div>
+    <button class="music-toggle" id="musicToggle" aria-pressed="false" title="Toggle background music">
+      <span class="music-icon" aria-hidden="true">♫</span><span id="musicLabel">Music off</span>
+    </button>
+  </nav>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow reveal">A little universe made for us</p>
+        <p class="hero-kicker reveal">To my favourite person,</p>
+        <h1 class="hero-title reveal">A Small gift for my Everything.<br><em>Enjoy my dear Kiruku.</em></h1>
+        <p class="hero-copy reveal">A collection of moments, little things, and all the reasons I would choose you again.</p>
+        <a class="button button-primary reveal" href="#story">Begin our story <span aria-hidden="true">↓</span></a>
+        <p class="hero-signature reveal">With all my love, <span data-fill="yourName">Your Name</span> ♡</p>
+      </div>
+      <div class="hero-photo-wrap reveal">
+        <div class="hero-photo photo-frame">
+          <img src="assets/our-first-photo.jpg" alt="A favourite photo of us" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder-frame')">
+          <div class="photo-placeholder"><span>♡</span><strong>Your favourite photo</strong><small>Add it as assets/our-first-photo.jpg</small></div>
+        </div>
+        <div class="photo-note note-top">my favourite place <span>is next to you</span></div>
+        <div class="photo-note note-bottom">N + S <span>always & forever</span></div>
+        <span class="sparkle sparkle-one" aria-hidden="true">✧</span>
+        <span class="sparkle sparkle-two" aria-hidden="true">✦</span>
+      </div>
+      <a class="scroll-cue" href="#story"><span></span>SCROLL TO FEEL LOVED</a>
+    </section>
+
+    <section class="intro section-shell section-pad" id="story">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Chapter one · The beginning</p>
+        <h2>Somehow, the world<br>led me <em>to you.</em></h2>
+      </div>
+      <div class="story-grid">
+        <div class="story-image reveal">
+          <img src="assets/our-beginning.jpg" alt="A photo from the beginning of our story" onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder')">
+          <div class="placeholder-caption"><span>✧</span> A memory from the beginning</div>
+        </div>
+        <div class="story-text reveal">
+          <span class="chapter-number">01 / THE DAY EVERYTHING CHANGED</span>
+          <p class="large-quote">“I thought i lost you Forever, but meeting you would become one of my favourite parts of being alive.”</p>
+          <p>It started on <strong data-fill="firstDate">[the day we met]</strong>. What felt like an ordinary moment slowly became something I never wanted to live without.</p>
+          <p>Romba Bayanthen epdi unna paathupen nu but you made me feel Myself. From there on — the tiny details, the unexpected turns, the laughter, and the moments that only we understand.</p>
+          <p class="handwritten">And I'd choose that beginning again. Every time.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="scroll-heart-section" id="our-heart" aria-label="Our love in a 3D heart">
+      <div class="heart-section-inner section-shell">
+        <div class="heart-section-copy reveal">
+          <p class="eyebrow">A little piece of us</p>
+          <h2>My heart holds<br><em>a picture of us.</em></h2>
+          <p>This is How My Heart Looks — a little reminder that wherever life takes us, you have a home in my heart.</p>
+          <span class="heart-scroll-hint"><span class="hint-line"></span> KEEP SCROLLING</span>
+        </div>
+        <div class="heart-sticky-stage">
+          <div class="heart-aura" aria-hidden="true"></div>
+          <div class="heart-orbit orbit-a" aria-hidden="true"></div>
+          <div class="heart-orbit orbit-b" aria-hidden="true"></div>
+          <div class="heart-orbit orbit-c" aria-hidden="true"></div>
+          <span class="heart-particle particle-a" aria-hidden="true">✦</span>
+          <span class="heart-particle particle-b" aria-hidden="true">♡</span>
+          <span class="heart-particle particle-c" aria-hidden="true">✧</span>
+          <span class="heart-particle particle-d" aria-hidden="true">♥</span>
+          <div class="heart-3d" id="scrollHeart" role="img" aria-label="A large three-dimensional heart containing a photo of us">
+            <svg class="heart-backplate heart-backplate-one" viewBox="0 0 400 360" aria-hidden="true"><path d="M200 326 C174 302 35 208 35 112 C35 25 142 8 200 88 C258 8 365 25 365 112 C365 208 226 302 200 326 Z"/></svg>
+            <svg class="heart-backplate heart-backplate-two" viewBox="0 0 400 360" aria-hidden="true"><path d="M200 326 C174 302 35 208 35 112 C35 25 142 8 200 88 C258 8 365 25 365 112 C365 208 226 302 200 326 Z"/></svg>
+            <svg class="heart-depth" viewBox="0 0 400 360" aria-hidden="true">
+              <defs>
+                <path id="heartShape" d="M200 326 C174 302 35 208 35 112 C35 25 142 8 200 88 C258 8 365 25 365 112 C365 208 226 302 200 326 Z"/>
+                <clipPath id="heartPhotoClip">
+                  <use href="#heartShape"/>
+                </clipPath>
+                <linearGradient id="heartEdge" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#ffcfdf"/>
+                  <stop offset="45%" stop-color="#bd547a"/>
+                  <stop offset="100%" stop-color="#5a1838"/>
+                </linearGradient>
+                <linearGradient id="heartShine" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#ffffff" stop-opacity=".38"/>
+                  <stop offset="35%" stop-color="#ffffff" stop-opacity=".04"/>
+                  <stop offset="100%" stop-color="#4d0928" stop-opacity=".32"/>
+                </linearGradient>
+              </defs>
+              <g class="heart-side-layers">
+                <use href="#heartShape" transform="translate(0 13)" fill="#49152f" stroke="#8e3156" stroke-width="2"/>
+                <use href="#heartShape" transform="translate(0 10)" fill="#641b3d" stroke="#a7466b" stroke-width="2"/>
+                <use href="#heartShape" transform="translate(0 7)" fill="#7f254b" stroke="#c05a7f" stroke-width="2"/>
+                <use href="#heartShape" transform="translate(0 4)" fill="#a43a61" stroke="#e18aaa" stroke-width="2"/>
+              </g>
+              <use href="#heartShape" fill="url(#heartEdge)" stroke="#ffc2d5" stroke-width="3"/>
+              <image class="heart-photo" href="assets/our-heart-photo.jpg" x="0" y="0" width="400" height="360" preserveAspectRatio="xMidYMid slice" clip-path="url(#heartPhotoClip)"/>
+              <use href="#heartShape" fill="url(#heartShine)" stroke="#ffd4e1" stroke-opacity=".8" stroke-width="2"/>
+              <path d="M82 84 C107 47 150 43 174 62" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="5" stroke-linecap="round"/>
+            </svg>
+            <div class="heart-photo-fallback" aria-hidden="true"><span>♡</span><strong>Your photo goes here</strong><small>assets/our-heart-photo.jpg</small></div>
+          </div>
+          <div class="heart-scroll-progress" aria-hidden="true"><span id="heartProgressBar"></span></div>
+          <div class="heart-caption">one photo, a million feelings <span>♡</span></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="video-memory section-shell section-pad" id="our-video" aria-label="A video memory of us">
+      <div class="video-memory-heading reveal">
+        <p class="eyebrow">A moment we can replay</p>
+        <h2>Some memories<br><em>move like magic.</em><br><em>Our Favourite Memory in Motion ♡</em></h2>
+        <p class="section-description"></p>
+      </div>
+      <div class="video-frame reveal">
+        <video class="couple-video" controls playsinline preload="metadata" poster="assets/our-video-poster.jpg">
+          <source src="assets/our-video.mp4" type="video/mp4">
+          Your browser does not support HTML video. Please try another browser.
+        </video>
+        <div class="video-placeholder" aria-hidden="true">
+          <span class="video-play-mark">▶</span>
+          <strong>Your video goes here</strong>
+          <small>Place <code>our-video.mp4</code> inside the assets folder</small>
+        </div>
+      </div>
+      <p class="video-note">A little clip. A thousand feelings. <span>♡</span></p>
+    </section>
+
+    <section class="memories section-shell section-pad" id="memories">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow">Chapter two · Little pieces of forever</p>
+        <h2>Our kind of <em>magic.</em></h2>
+        <p class="section-description">The big days are wonderful. But it's the little moments with you that stay with me.</p>
+      </div>
+      <div class="memory-grid">
+        <article class="memory-card memory-tall reveal">
+          <div class="memory-image"><img src="assets/memory-01.jpg" alt="A favourite memory together" onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder')"><span class="image-fallback">♡<small>Add memory-01.jpg</small></span></div>
+          <div class="memory-caption"><span class="memory-date">[12th December 2025]</span><h3>Our first Bus Ride</h3><p>Oru new Experience, But a Tired one.</p></div>
+        </article>
+        <article class="memory-card reveal">
+          <div class="memory-image"><img src="assets/memory-02.jpg" alt="A special day together" onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder')"><span class="image-fallback">♡<small>Add memory-02.jpg</small></span></div>
+          <div class="memory-caption"><span class="memory-date">[15th December 2025]</span><h3>Our First visit to Vadapzhani Murugan Kovil</h3><p>Our first time to a place where The ancient stone and holy flame,
+Where thousands bind their fates each day,
+One morning it will call our name  .</p></div>
+        </article>
+        <article class="memory-card reveal">
+          <div class="memory-image"><img src="assets/memory-03.jpg" alt="A candid photo together" onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder')"><span class="image-fallback">♡<small>Add memory-03.jpg</small></span></div>
+          <div class="memory-caption"><span class="memory-date">[17th December 2025]</span><h3>The candid one</h3><p>My eyes will always find their way back to you like a compass that only knows one direction..</p></div>
+        </article>
+        <article class="memory-card memory-wide reveal">
+          <div class="memory-image"><img src="assets/memory-04.jpg" alt="A memory you want to keep forever" onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder')"><span class="image-fallback">♡<small>Add memory-04.jpg</small></span></div>
+          <div class="memory-caption"><span class="memory-date">[6th December 2025]</span><h3>Our Special Day</h3><p>The day i wont forget in this life, I know you Wont too, The day We Became One.</p></div>
+        </article>
+      </div>
+      <p class="gallery-footnote reveal"><span>✧</span> </p>
+    </section>
+
+    <section class="timeline-section section-shell section-pad" id="timeline">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Chapter three · Our timeline</p>
+        <h2>Little dates.<br><em>Big feelings.</em></h2>
+        <p class="section-description">Every chapter brought us here. The moments that mean the most to both of US.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><p class="timeline-date">· THE FIRST HELLO</p><h3>When our story began</h3><p>The School Days, The first conversation, the first smile, the moment We both realised this was different.</p></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><p class="timeline-date">· A LITTLE CLOSER</p><h3>When you became my person</h3><p>The Day i felt the Touch of True Love, Nee en Kaiya Pudicha.</p></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><p class="timeline-date">[29th June 2022] · OUR FAVOURITE DAY</p><h3>The day We Became Bf & Gf</h3><p>I know You love and hate this Phase of our life, but Deep down we both crave for it Again.</p></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><p class="timeline-date">TODAY · AND EVERY TOMORROW</p><h3>Still choosing you</h3><p>And the best part? We haven't lived all our favourite memories yet, Looking Forward to live all my Remaining lives with "YOU" & "ONLY YOU"</p></article>
+      </div>
+    </section>
+
+    <section class="reasons-section section-shell section-pad" id="reasons">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow">Chapter four · A thousand little reasons</p>
+        <h2>Why it's always <em>you.</em></h2>
+        <p class="section-description">Not a complete list. Just a few things my heart never gets tired of noticing.</p>
+      </div>
+      <div class="reasons-grid">
+        <article class="reason-card reveal"><span>01</span><div class="reason-icon">♡</div><h3>Your heart</h3><p>The way you show Kindness to the people you care, Your Honesty, mainly The way you care for people that won't do the same for you .</p></article>
+        <article class="reason-card reveal"><span>02</span><div class="reason-icon">✧</div><h3>Your laugh</h3><p>Your "lovely","Melting" Door Squeak Laugh, How it makes an ordinary day feel lighter, warmer, and more like home.</p></article>
+        <article class="reason-card reveal"><span>03</span><div class="reason-icon">☾</div><h3>Being understood</h3><p>The comfort of being myself around you, without needing to explain everything, no matter what i do you never judge me, Ethana Time Hurt pannalum You always forgive me .</p></article>
+        <article class="reason-card reveal"><span>04</span><div class="reason-icon">∞</div><h3>Your Eyes</h3><p>The Eyes that melt my Heart, the Eyes that ill never get Tired of, The only Gaze i Crave for..</p></article>
+        <article class="reason-card reveal"><span>05</span><div class="reason-icon">✿</div><h3>Growing together</h3><p>With you it was never Growing Alone, It was always Growing Together.</p></article>
+        <article class="reason-card reveal"><span>06</span><div class="reason-icon">♥</div><h3>Because you're you</h3><p>And even if I had a thousand lifetimes, I'd still want to find you.</p></article>
+      </div>
+    </section>
+
+    <section class="letter-section section-shell section-pad" id="letter">
+      <div class="letter-glow" aria-hidden="true"></div>
+      <div class="letter-card reveal">
+        <p class="eyebrow">Chapter five · A few words from my heart</p>
+        <div class="letter-stamp">♡</div>
+        <h2>To my <em>Lovely Wife,</em></h2>
+        <div class="letter-body">
+          <p>My Dear Kiruku,</p>
+          <p>If I could give you one thing, it would be the chance to see yourself through my eyes — even for a moment. Maybe then you'd understand how much light you bring into my life, and how deeply grateful I am that our paths crossed.</p>
+          <p>Thank you for the memories we've made, for the little moments that became everything, and for being part of my world. I don't promise that every day will be perfect. I promise to keep choosing us, to listen, to learn, to laugh with you, and to keep making room for new memories.</p>
+          <p>When we look back years from now, I hope we'll have a thousand stories to tell — and that we'll still be finding new reasons to fall in love, "WITH YOU" , "FOR YOU" , "ALWAYS YOU"  .</p>
+          <p class="letter-custom" data-fill="customLetter">Add a personal memory, an inside joke, or a promise that only the two of you understand.</p>
+          <p class="letter-signoff">All my love, always,</p>
+          <p class="letter-name" data-fill="yourName">Your Name <span>♡</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="finale section-shell section-pad" id="finale">
+      <div class="finale-stars" aria-hidden="true">✧　·　✦　　·　♡　·　✧</div>
+      <p class="eyebrow reveal">One last thing...</p>
+      <h2 class="reveal">If I had to live<br>it all again, <em>I'd find you.</em></h2>
+      <p class="finale-copy reveal">In every version of every life, through every unexpected turn, I hope I get to love you.</p>
+      <button class="surprise-button reveal" id="surpriseButton">A little surprise for you <span>♡</span></button>
+      <div class="surprise-message" id="surpriseMessage" hidden>
+        <div class="surprise-heart">♥</div>
+        <p class="eyebrow">My favourite person. My favourite story.</p>
+        <h3>You're my always.</h3>
+        <p>Thank you for being you, <span data-fill="wifeName">my love</span>. This is only one little page — I can't wait for all the memories still waiting for us.</p>
+        <p class="surprise-signature">Forever yours, <span data-fill="yourName">Your Name</span> ♡</p>
+        <div class="heart-burst" id="heartBurst" aria-hidden="true"></div>
+      </div>
+      <footer class="footer"><span>Made with love, just for us</span><span>♡</span><span data-fill="anniversary">Since [our special date]</span></footer>
+    </section>
+  </main>
+  <audio id="backgroundMusic" loop preload="none">
+    <!-- Add your own licensed MP3 file at assets/our-song.mp3 -->
+    <source src="assets/our-song.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
